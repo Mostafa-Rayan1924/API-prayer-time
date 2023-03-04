@@ -94,11 +94,14 @@ grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
  text-align: center;
  margin: 40px 0px;
 }
-
 .body .container .box{
     background: white;
     border-radius: 10px;
     overflow: hidden;
+    transition: 0.3s;
+}
+.body .container .box:hover{
+    transform: translateY(-10px);
 }
 .body .container .box .nameElsalh{
     background: var(--main-color);

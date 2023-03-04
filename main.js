@@ -33,7 +33,7 @@ send.addEventListener("click", () => {
   let content;
   axios
     .get(
-      `http://api.aladhan.com/v1/timingsByCity?country=${countrySearch.value}&city=${citySearch.value}`
+      `https://api.aladhan.com/v1/timingsByCity?country=${countrySearch.value}&city=${citySearch.value}`
     )
     .then(function (response) {
       // handle success
