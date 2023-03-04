@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API MUSLIM</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Open+Sans:wght@400;700&family=Poppins:wght@500;700;800&family=Roboto:wght@300;500;900&family=Work+Sans:wght@200;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- font -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <span title="info" class="info">&#129488;  </span>
+    <div class="popup">
+        <h1>important info to know how using the app</h1>
+        <div class="box">
+            <span class="close">X</span>
+            <h4 >write the iso code with 2digits in the country</h4>
+            <h4>write the iso code or the name in the city</h4>
+        </div>
+    </div>
+    <div class="head">
+        <div class="container">
+            <h1 id="cityName">الاسماعيليه</h1>
+        <div class="dating"><span class="day">ألاثننين</span> <span class="date">sep 2023 26</span> </div>
+        <hr>
+        </div>
+    </div>
+    <div class="body">
+      <div class="container">
+        <div class="parent-box">
+            <div class="box">
+                <h4 class="nameElsalh">
+                   العشاء
+                </h4>
+                <h2 class="time">19:08</h2>
+            </div>
+            <div class="box">
+                <h4 class="nameElsalh">
+                   المغرب
+                </h4>
+                <h2 class="time">17:51</h2>
+            </div>
+            <div class="box">
+                <h4 class="nameElsalh">
+                   العصر
+                </h4>
+                <h2 class="time">15:22</h2>
+            </div>
+            <div class="box">
+                <h4 class="nameElsalh">
+                   الظهر
+                </h4>
+                <h2 class="time">12:21</h2>
+            </div>
+            <div class="box">
+                <h4 class="nameElsalh">
+                   الفجر
+                </h4>
+                <h2 class="time">04:49</h2>
+            </div>
+        </div>
+        <hr>
+      </div>
+    </div>
+    <div class="foot">
+       <div class="inputs">
+        <label for="s">الدوله</label>
+        <input placeholder="search by iso code" type="text" class="country"  id="s">
+        <label for="s">المحافظه</label>
+        <input placeholder="iso code or name" type="text" class="city"  id="s">
+       </div>
+    </div>
+    <button class="send">ابحث</button>
+    <script src="main.js"></script>
+</body>
+</html>
